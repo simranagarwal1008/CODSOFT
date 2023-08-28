@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+/* utility-classes*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: black;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bg.gif);
+    background-size: cover;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8rem;
+
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+a {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1100px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+/* header section */
+
+header img{
+    border-radius: 50%;
+}
+
+header{
+    background-image: linear-gradient(to right, #3e8fb8, #012643);
+}
+
+header li:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+/* home section */
+
+#home-section {
+    background: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.5)), url(bcg.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+.home-name{
+    font-size: 3rem;
+}
+
+.home-content {
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.social-share {
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.social-share li {
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: white;
+}
+
+.social-share li:hover{
+    background-image: linear-gradient(to right, #3e8fb8, #012643);
+}
+
+.social-share svg {
+    color: black;
+}
+
+/* about section */
+
+.my-pic {
+    border-radius: 30px;
+}
+
+/* features section */
+
+.feature{
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #f4f6f7, #eaeaea);
+    padding: 30px;
+}
+
+.feature:hover{
+    transform: translateY(-10px);
+    background-image: linear-gradient(to right, #3e8fb8, #012643);
+    color: white;
+}
+
+.feature-icon{
+    padding: 10px;
+}
+
+/* proficiency section */
+
+
+
+
+.proficiency-left{
+    flex-direction: column;
+    padding-right: 0px;
+}
+
+.proficiency{
+    border-bottom: 10px solid #0f4c7a;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 20px;
+    position: relative;
+}
+
+.html-pro{
+    width: 85%;
+}
+
+.css-pro{
+    width: 78%;
+}
+
+.js-pro{
+    width: 60%;
+}
+
+.py-pro{
+    width: 70%;
+}
+
+.sql-pro{
+    width: 75%;
+}
+
+.cpp-pro{
+    width: 70%;
+}
+
+/* projects section */
+
+.card:hover{
+    transform: translateY(-10px);
+    background-image: linear-gradient(to right, #3e8fb8, #012643);
+    color: white;
+    border: 3px solid rgb(0, 0, 0) ;
+    border-radius: 10px;
+}
+
+.project-button{
+    text-align: center;
+}
+
+.btn{
+    background-image: linear-gradient(to right, #519fc6, #0d5b96);
+}
+
+/* resume section */
+
+#resume-section{
+    background-color: #012643;
+}
+
+
+/* contact section */
+
+.thumbnail img{
+    border-radius: 10px;
+    transition: 0.4s;
+    width: 100%;
+    height: auto;
+}
+
+.contact{
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #f4f6f7, #eaeaea);
+    padding: 30px;
+}
+
+/* footer section */
+
+#footer-section{
+    background-image: linear-gradient(to right, #3e8fb8, #012643);
+    color: white;
+}
+
+.logo img{
+    border-radius: 50%;
+}

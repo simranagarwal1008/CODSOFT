@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: rgb(248, 255, 255);
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 5px rgb(101, 97, 97);
+}
+.calc{
+    max-width: 420px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.dis_op{
+    width: 400px;
+    height: 65px;
+    background-color: rgb(203, 198, 198);
+    border-radius: 20px;
+    border: 3px solid black;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(103, 100, 100);
+}
+
+button{
+    font-size: 30px;
+   background-color: black;
+   color: white;
+   height: 60px;
+   width: 102px;
+   cursor: pointer;
+}
+
+.cal_btn{
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.row{
+    padding: 2px ;
+}
+
+.equal{
+    background-color: white;
+    border-radius: 40px;
+    color:black
+}
